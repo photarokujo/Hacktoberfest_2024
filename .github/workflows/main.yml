@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: ""                    
           MERGE_REMOVE_LABELS: ""                 # No labels to remove after merge
-          MERGE_METHOD: "merge"                  # Continue using squash method for merging
+          MERGE_METHOD: "squash"                  # Continue using squash method for merging
           MERGE_COMMIT_MESSAGE: "pull-request-description"
           MERGE_FORKS: "true"                    # If PRs from forks should be merged, set this to "true"
           MERGE_RETRIES: "6"                      # Retry merge 6 times if it fails
